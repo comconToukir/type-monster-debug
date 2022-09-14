@@ -1,0 +1,12 @@
+.text-white {
+  color: white;
+}
+.blog {
+  margin: 20px 0px;
+}
+.blog p {
+  padding: 20px;
+}
+.blog ul {
+  padding-left: 30px;
+}

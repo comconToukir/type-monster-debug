@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="blog.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <header class="title">
+    <h1>Web Development Questions</h1>
+  </header>
+  <main class="text-white">
+    <section class="blog-section box-container">
+      <article class="blog">
+        <h3>What are the differences between <span class="red">localStorage</span> and <span class="red">sessionStorage</span>?</h3>
+        <p>
+          <span class="red">localStorage</span> is persistent storage. Meaning, it will stay if the page reloads. 
+          On the other side <span class="red">sessionStorage</span> is not persistent and will not survive page reloads.
+        </p>
+      </article>
+      <article class="blog">
+        <h3>What are the differences between <span class="red">global scope</span> and <span class="red">local scope</span>?</h3>
+        <p>
+          <span class="red">Global scope</span> contains all of the things defined outside of all code blocks. 
+          A global variable has <span class="red">global scope</span>. A global variable is accessible from anywhere in the code. 
+          <span class="red">Local scope</span> contains things defined inside code blocks. A local variable has <span class="red">local scope</span>. 
+          A local variable is only accessible where it's declared.
+        </p>
+      </article>
+      <article class="blog">
+        <h3>What is javaScript <span class="red">event loop</span>?</h3>
+        <p>
+          In javascript to make asynchronous programming possible <span class="red">event loop</span> is used. 
+          It is a cyclic system where <span class="red">call stack</span> is used to keep track of all operations in line to be executed 
+          and <span class="red">event queue</span> is used to send new functions to the stack for processing. <span class="red">Event loop</span> constantly checks if the call stack is empty. If it is empty, new functions are added from the <span class="red">event queue</span>. If it is not, then current function call is processed.
+        </p>
+      </article>
+      <article class="blog">
+        <h3>How many ways can we get <span class="red">undefined</span>?</h3>
+        <p>
+          <ul>
+            <li>A variable with unassigned value.</li>
+            <li>Function with no return.</li>
+            <li>Parameter that is not passed will be undefined</li>
+            <li>If return has nothing on the right side.</li>
+            <li>Property that doesn't exist on an object will give undefined.</li>
+            <li>Accessing array elements outside of the index range.</li>
+            <li>Deleting an element inside an array.</li>
+            <li>Setting a value directly to undefined.</li>
+          </ul>
+        </p>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
