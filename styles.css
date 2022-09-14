@@ -99,6 +99,9 @@ body {
 .hidden {
   display: none;
 }
+.mb-15 {
+  margin-bottom: 15px;
+}
 .title {
   text-align: center;
   color: white;
